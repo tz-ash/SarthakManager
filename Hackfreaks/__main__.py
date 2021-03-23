@@ -58,20 +58,18 @@ Hosted in Heroku with ElephantSQL Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](t.me/HackfreaksUpdates).
-✗ [Support Group](t.me/HackfreaksSupport).
-✗ [Repository](github.com/swatv3nub/Hackfreaks)
+✗ [Updates Channel](t.me/newbiebotu).
+✗ [Support Group](t.me/newbiebots).
 
-Maintained by @Swonit
 Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="About Project Hackfreaks", url="https://t.me/ProjectHackfreaks"
+            text="Join My Channel", url="https://t.me/words_attack"
         ),
-        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/MrHackfreaksRobot?startgroup=true"),
+        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/newbiemanager_bot?startgroup=true"),
     ]
 ]
 
@@ -95,7 +93,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-HACKFREAKS_IMG = "telegra.ph/file/4538e359834b77487e88b.jpg"
+HACKFREAKS_IMG = "telegra.ph/file/81d8a0a1b0f9e283dc244.jpg"
 
 DONATE_STRING = """Hope You are Satisfied with Me. As of now I don't need any Donations
 Since I am Hosted in Heroku with a Cheap Database add-on. If I need Some After Growing and Upgrading to a Faster and Advanced Hosting,
