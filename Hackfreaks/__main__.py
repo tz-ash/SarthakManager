@@ -195,21 +195,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Hackfreaks To Your Group🔥",
+                              text="🔥Add Newbie Manager Bot To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="About Project Hackfreaks", 
-                              url="https://t.me/ProjectHackfreaks"
+                              text="Join My Channel", 
+                              url="https://t.me/words_attack"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/HackfreaksSupport"),
+                              url=f"https://t.me/newbiebots"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/HackfreaksUpdates")
+                              url="https://t.me/newbiebotu")
                           ]])) 
     else:
         update.effective_message.reply_text(
