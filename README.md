@@ -1,15 +1,15 @@
-![MrHackfreaks](https://telegra.ph/file/4538e359834b77487e88b.jpg) 
+![Newbie Mnager](telegra.ph/file/81d8a0a1b0f9e283dc244.jpg) 
 # MrHackfreaksRobot
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-green)](https://telegram.dog/HackfreaksUpdates)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a Marie fork, MrHackfreaks evolved further and was built to be more robust. 
+Originally a Marie fork, Newbie Mnanager evolved further and was built to be more robust. 
 
-Can be found on telegram as [MrHackfreaks](https://t.me/MrHackfreaksRobot).
+Can be found on telegram as [Newbie Manager](https://t.me/newbiemanager_bot).
 
-The Support group can be reached out to at our [SupprtChat](https://t.me/HackfreaksSupport), where you can ask for help about MrHackfreaksRobot,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at our [SupprtChat](https://t.me/newbiebots), where you can ask for help about MrHackfreaksRobot,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 # Required Info
 
@@ -20,8 +20,7 @@ The Support group can be reached out to at our [SupprtChat](https://t.me/Hackfre
 
 ### Read these notes carefully before proceeding 
 
- - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/swatv3nub/hackfreaks?blob/Alpha/Hackfreaks/__main__.py#L25)
- - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot/UpdatesChannel/SupportChat, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats.
+ 
 
 
 <details>
@@ -34,7 +33,7 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/swatv3nub/Hackfreaks.git) 
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmenewbie/Hackfreaks) 
 
 </details>  
 <details>
@@ -200,11 +199,11 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Hackfreaks Support](https://t.me/HackfreaksSupport)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Newbie Support](https://t.me/HackfreaksSupport)
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/swatv3nub/Hackfreaks.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmenewbie/Hackfreaks) 
 
 
 ## Credits
@@ -215,4 +214,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [Hackfreaks Support](https://t.me/HackfreaksSupport) or simply submit a pull request on the readme.
+
