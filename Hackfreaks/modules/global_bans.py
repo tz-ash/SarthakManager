@@ -143,7 +143,7 @@ def gban(update: Update, context: CallbackContext):
 
         return
 
-    message.reply_text("Omk, Gbanning. Wait 5secs Max to max")
+    message.reply_text("Omk, Gbanning. Wait 5secs Max to max, Fir iska kaam khatam Sar")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
