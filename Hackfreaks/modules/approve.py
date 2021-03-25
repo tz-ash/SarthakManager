@@ -38,13 +38,13 @@ def approve(update, context):
 	     return ""
 	 member = chat.get_member(int(user_id))
 	 if member.status == "administrator" or member.status == "creator":
-	     message.reply_text(f"User is already admin - locks, blocklists, and antiflood already don't apply to them.")
+	     message.reply_text(f"User is already admin - no need of being approved to him.")
 	     return
 	 if sql.is_approved(message.chat_id, user_id):
 	     message.reply_text(f"[{member.user['first_name']}](tg://user?id={member.user['id']}) is already approved in {chat_title}", parse_mode=ParseMode.MARKDOWN)
 	     return
 	 sql.approve(message.chat_id, user_id)
-	 message.reply_text(f"[{member.user['first_name']}](tg://user?id={member.user['id']}) has been approved in {chat_title}! They will now be ignored by automated admin actions like locks, blocklists, and antiflood.", parse_mode=ParseMode.MARKDOWN)
+	 message.reply_text(f"[{member.user['first_name']}](tg://user?id={member.user['id']}) has been approved in {chat_title}! He will now be ignored by automated admin actions like locks, blocklists, and antiflood and he will fully emjoy now..", parse_mode=ParseMode.MARKDOWN)
      
 @user_admin
 @run_async
