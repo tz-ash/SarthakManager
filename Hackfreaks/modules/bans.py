@@ -142,7 +142,7 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
             raise
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("I'm not gonna BAN myself, are you gone mad?")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member):
@@ -378,12 +378,14 @@ __help__ = """
  • `/hitme`*:* hits the user who issued the command
 *Admins only:*
  • `/ban <userhandle>`*:* bans a user. (via handle, or reply)
+ • `/jnl <userhandle>`*:* bans a user. (via handle, or reply)
  • `/tban <userhandle> x(m/h/d)`*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  • `/unban <userhandle>`*:* unbans a user. (via handle, or reply)
  • `/hit <userhandle>`*:* Hit a user out of the group, (via handle, or reply)
 """
 
 BAN_HANDLER = CommandHandler("ban", ban)
+BAN2_HANDLER = CommandHandler("jnl", ban)
 TEMPBAN_HANDLER = CommandHandler(["tban"], temp_ban)
 HIT_HANDLER = CommandHandler("hit", hit)
 UNBAN_HANDLER = CommandHandler("unban", unban)
@@ -392,6 +394,7 @@ HITME_HANDLER = DisableAbleCommandHandler(
     "hitme", hitme, filters=Filters.group)
 
 dispatcher.add_handler(BAN_HANDLER)
+dispatcher.add_handler(BAN2_HANDLER)
 dispatcher.add_handler(TEMPBAN_HANDLER)
 dispatcher.add_handler(HIT_HANDLER)
 dispatcher.add_handler(UNBAN_HANDLER)
@@ -400,6 +403,6 @@ dispatcher.add_handler(HITME_HANDLER)
 
 __mod_name__ = "Restrictions"
 __handlers__ = [
-    BAN_HANDLER, TEMPBAN_HANDLER, HIT_HANDLER, UNBAN_HANDLER, ROAR_HANDLER,
+    BAN_HANDLER, BAN_HANDLER, TEMPBAN_HANDLER, HIT_HANDLER, UNBAN_HANDLER, ROAR_HANDLER,
     HITME_HANDLER
 ]
