@@ -54,12 +54,12 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a Pro group management bot, with some Special features.
  
-Hosted in Heroku with ElephantSQL Database,
+Hosted in Heroku with SQLALCHEMY_DATABASE_URI Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](t.me/newbiebotu).
-✗ [Support Group](t.me/newbiebots).
+✗ [Updates Channel](t.me/sarthak_updates).
+✗ [Support Group](t.me/sarthak_support).
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -67,9 +67,9 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Join My Channel", url="https://t.me/words_attack"
+            text="Join My Channel", url="https://t.me/sarthak_network"
         ),
-        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/newbiemanager_bot?startgroup=true"),
+        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/sarthakmanager_bot?startgroup=true"),
     ]
 ]
 
@@ -93,7 +93,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-HACKFREAKS_IMG = "telegra.ph/file/81d8a0a1b0f9e283dc244.jpg"
+HACKFREAKS_IMG = "telegra.ph/file/169458ba6242250b6d280.jpg"
 
 DONATE_STRING = """Hope You are Satisfied with Me. As of now I don't need any Donations
 Since I am Hosted in Heroku with a Cheap Database add-on. If I need Some After Growing and Upgrading to a Faster and Advanced Hosting,
@@ -195,21 +195,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Newbie Manager Bot To Your Group🔥",
+                              text="🔥Add Sarthak Manager Bot To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
                               text="Join My Channel", 
-                              url="https://t.me/words_attack"
+                              url="https://t.me/sarthak_network"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/newbiebots"),
+                              url=f"https://t.me/sarthak_support"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/newbiebotu")
+                              url="https://t.me/sarthak_updates")
                           ]])) 
     else:
         update.effective_message.reply_text(
