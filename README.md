@@ -1,4 +1,4 @@
-![Newbie Mnager](https://telegra.ph/file/81d8a0a1b0f9e283dc244.jpg) 
+![Newbie Mnager](https://telegra.ph/file/169458ba6242250b6d280.jpg) 
 # NewbieManagerBot
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-green)](https://telegram.dog/HackfreaksUpdates)
 
@@ -7,9 +7,9 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 Originally a Marie fork, Newbie Mnanager evolved further and was built to be more robust. 
 
-Can be found on telegram as [Newbie Manager](https://t.me/newbiemanager_bot).
+Can be found on telegram as [Sarthak Manager](https://t.me/sarthakmanager_bot).
 
-The Support group can be reached out to at our [SupprtChat](https://t.me/newbiebots), where you can ask for help about MrHackfreaksRobot,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at our [Support Chat](https://t.me/sarthak_support), where you can ask for help about Sarthak Manager,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 # Required Info
 
@@ -33,13 +33,11 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmenewbie/Hackfreaks) 
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sarthak-xd/SarthakManager) 
 
 </details>  
 <details>
   <summary>Steps to self Host!! </summary>
-
-Note: This instruction set is just a copy-paste from Marie, note that [HackfreaksSupport](https://t.me/HackfreaksSupport) aims to handle support for @MrHackfreaksRobot and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
 
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
