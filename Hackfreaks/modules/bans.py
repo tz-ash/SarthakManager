@@ -52,7 +52,7 @@ def ban(update: Update, context: CallbackContext) -> str:
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
         if user_id == OWNER_ID:
             message.reply_text(
-                "Trying to put me against a God level Fighter huh?")
+                "Bete, aukat me rah ke kaam kar. Jyada nhi")
             return log_message
         elif user_id in DEV_USERS:
             message.reply_text("I can't act against our own.")
@@ -75,7 +75,7 @@ def ban(update: Update, context: CallbackContext) -> str:
             message.reply_text("GOBLIN's abilities make them ban immune!")
             return log_message
         else:
-            message.reply_text("This user has immunity and cannot be banned.")
+            message.reply_text("Baap se bakchodi nhi.")
             return log_message
 
     log = (
