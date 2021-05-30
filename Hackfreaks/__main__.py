@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {username}, my name is {Ava}! 
+Hi {username}, my name is {MissAvaBot}! 
 I am a Pro group management bot, with some Special features.
  
 Hosted in Heroku with SQLALCHEMY_DATABASE_URI Database,
@@ -74,7 +74,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-Hello there! My name is *{}*.
+Hello there! My name is *{MissAvaBot}*.
 Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -195,7 +195,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Ava To Your Group🔥",
+                              text="🔥Add MissAvaBot To Your Group🔥",
                               url="t.me/{MissAva_bot}?startgroup=true".format(
                                   context.bot.username))
                           ], [
