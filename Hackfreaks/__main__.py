@@ -74,7 +74,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-Hello there! My name is *{Ava}*.
+Hello there! My name is *{MissAva}*.
 Have a look at the following for an idea of some of \
 the things I can help you with.
 
