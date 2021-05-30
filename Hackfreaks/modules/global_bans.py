@@ -396,7 +396,7 @@ def check_and_ban(update, user_id, should_message=True):
             update.effective_message.reply_text(
                 f"<b>Alert</b>: this user is globally banned.\n"
                 f"<code>*bans them from here*</code>.\n"
-                f"<b>Appeal chat</b>: @{SPAMWATCH_SUPPORT_CHAT}\n"
+                f"<b>Appeal chat</b>: @{magiclmush}\n"
                 f"<b>User ID</b>: <code>{sw_ban.id}</code>\n"
                 f"<b>Ban Reason</b>: <code>{html.escape(sw_ban.reason)}</code>",
                 parse_mode=ParseMode.HTML)
@@ -407,7 +407,7 @@ def check_and_ban(update, user_id, should_message=True):
         if should_message:
             text = f"<b>Alert</b>: this user is globally banned.\n" \
                    f"<code>*bans them from here*</code>.\n" \
-                   f"<b>Appeal chat</b>: @{SUPPORT_CHAT}\n" \
+                   f"<b>Appeal chat</b>: @{magiclmush}\n" \
                    f"<b>User ID</b>: <code>{user_id}</code>"
             user = sql.get_gbanned_user(user_id)
             if user.reason:
