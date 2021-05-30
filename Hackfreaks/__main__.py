@@ -196,7 +196,7 @@ def start(update: Update, context: CallbackContext):
                           [[
                               InlineKeyboardButton(
                               text="🔥Add Ava To Your Group🔥",
-                              url="t.me/{}?startgroup=true".format(
+                              url="t.me/{MissAva_bot}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
