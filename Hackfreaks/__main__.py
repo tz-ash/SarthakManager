@@ -51,15 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {username}, my name is {Ava}! 
 I am a Pro group management bot, with some Special features.
  
 Hosted in Heroku with SQLALCHEMY_DATABASE_URI Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](t.me/sarthak_updates).
-✗ [Support Group](t.me/sarthak_support).
+✗ [Updates Channel](t.me/psykd).
+✗ [Support Group](t.me/magiclmush).
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -67,14 +67,14 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Join My Channel", url="https://t.me/sarthak_network"
+            text="Join My Channel", url="https://t.me/psykd"
         ),
-        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/sarthakmanager_bot?startgroup=true"),
+        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/MissAva_bot?startgroup=true"),
     ]
 ]
 
 HELP_STRINGS = """
-Hello there! My name is *{}*.
+Hello there! My name is *{Ava}*.
 Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -93,7 +93,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-HACKFREAKS_IMG = "telegra.ph/file/169458ba6242250b6d280.jpg"
+HACKFREAKS_IMG = "https://telegra.ph/file/c1467c2a97c685f9ba6ad.jpg"
 
 DONATE_STRING = """Hope You are Satisfied with Me. As of now I don't need any Donations
 Since I am Hosted in Heroku with a Cheap Database add-on. If I need Some After Growing and Upgrading to a Faster and Advanced Hosting,
@@ -195,21 +195,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Sarthak Manager Bot To Your Group🔥",
+                              text="🔥Add Ava To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
                               text="Join My Channel", 
-                              url="https://t.me/sarthak_network"
+                              url="https://t.me/psykd"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/sarthak_support"),
+                              url=f"https://t.me/magiclmush"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/sarthak_updates")
+                              url="https://t.me/psykd")
                           ]])) 
     else:
         update.effective_message.reply_text(
